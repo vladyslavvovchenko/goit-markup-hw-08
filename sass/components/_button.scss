@@ -1,0 +1,21 @@
+/* button */
+
+.button-mar {
+    margin-top: 30px;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--primery-white-color);
+    background-color: var(--accent-hover-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}

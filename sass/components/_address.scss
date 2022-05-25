@@ -1,0 +1,30 @@
+/* address */
+
+.address {
+    width: 231px;
+    margin-top: 20px;
+    padding: 0;
+    &-dn:not(:last-child) {
+        margin-bottom: 9px;
+    }
+}
+
+
+
+.address .link {
+    color: var(--primery-white-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.address .link-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    transition: color var(--main-tranzitions);
+    &:hover,
+    &:focus {
+        color: var(--accent-hover-color);
+    }
+}
+

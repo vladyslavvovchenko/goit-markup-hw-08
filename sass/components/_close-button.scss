@@ -1,0 +1,18 @@
+.close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--primery-white-color);
+    transition: fill var(--main-tranzitions);
+    &:hover {
+        fill: var(--accent-hover-color);
+    }
+}
+

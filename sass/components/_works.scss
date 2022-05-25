@@ -1,0 +1,57 @@
+/* чем мы занимаемся */
+
+.works {
+    padding-bottom: 94px;
+    display: none;
+}
+
+.works__title {
+    display: block;
+    margin-bottom: 50px;
+    color: var(--second-text-coor);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.works-list {
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+}
+
+.works-list__item {
+    position: relative;
+    width: 370px;
+    display: block;
+    margin: 0;
+}
+
+.works-list__overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(47, 48, 58, 0.8);
+        z-index: 0;
+    }
+}
+
+.works-list__overay-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primery-white-color);
+    z-index: 1;
+}

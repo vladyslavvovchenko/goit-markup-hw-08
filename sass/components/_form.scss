@@ -1,0 +1,122 @@
+/* form */
+
+.form {
+    margin-right: auto;
+    margin-left: auto;
+    width: 448px;
+    /* outline: solid 1px green; */
+    color: var(--primary-text-color)
+}
+
+.form-text {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-text-coor)
+}
+
+.name {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+}
+
+.input-pos {
+    position: relative;
+}
+
+input {
+    padding: 0;
+}
+
+.input {
+    display: block;
+    margin-bottom: 10px;
+    min-height: 40px;
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: border var(--main-tranzitions);
+    &:focus {
+    border: 1px solid var(--accent-hover-color);
+    outline: none;
+    }
+}
+
+.input-pad {
+    padding-left: 42px;
+}
+
+.icon {
+    display: block;
+    position: absolute;
+    transform: translatey(-50%);
+    top: 50%;
+    left: 12px;
+    transition: fill var(--main-tranzitions);
+    width: 18px;
+    height: 18px;
+    .input:focus+& {
+        fill: var(--accent-hover-color);
+    }
+}
+
+textarea {
+    padding: 12px 16px;
+    resize: none;
+    height: 120px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    &::placeholder {
+        color: rgba(117, 117, 117, 0.5);
+    }
+}
+
+.label-checkbox {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.checkbox {
+    /* appearance: none; */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    /* те ж саме що і appearance: none; */
+}
+
+.icon-checkbox {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 8px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    background-image: url(../images/checkbox.svg);
+    .checkbox:checked+& {
+        background-color: var(--accent-hover-color);
+        background-image: url(../images/checkbox-checked.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.checkbox-link {
+    color: var(--accent-hover-color);
+    text-decoration: underline;
+}

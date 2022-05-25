@@ -1,0 +1,33 @@
+/* description */
+
+.description {
+    // display: flex;
+    justify-content: space-between;
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.description__items {
+    // width: 270px;
+    width: 100%;
+}
+
+.description__icons-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4FA;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+
+.description__title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--second-text-coor);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+}
