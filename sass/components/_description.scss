@@ -2,15 +2,20 @@
 
 .description {
     // display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.71;
+
 }
 
 .description__items {
     // width: 270px;
     width: 100%;
+    &:not(:last-child){
+        margin-bottom: 30px;
+    }
+    
 }
 
 .description__icons-bg {
@@ -21,7 +26,6 @@
     height: 120px;
     margin-bottom: 30px;
 }
-
 
 .description__title {
     text-align: center;

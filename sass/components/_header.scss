@@ -15,4 +15,13 @@
 .box {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.mob-button-open{
+    background-color: transparent;
+    &:hover,
+    &:focus{
+        fill: var(--accent-hover-color);
+    }
 }

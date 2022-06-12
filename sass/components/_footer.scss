@@ -10,11 +10,16 @@
 }
 
 .footer-flex {
-    display: flex;
+    // display: flex;
     justify-content: space-between;
 }
 
 
 .logo--white {
-    color: var(--primery-white-color);
+    color: var(--primery-white-color);    
+}
+
+.mob-logo-down{
+    margin-right: auto;
+    margin-left: auto;
 }

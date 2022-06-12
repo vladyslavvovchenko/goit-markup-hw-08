@@ -5,11 +5,9 @@
     margin-top: 20px;
     padding: 0;
     &-dn:not(:last-child) {
-        margin-bottom: 9px;
+        margin-bottom: 8px;
     }
 }
-
-
 
 .address .link {
     color: var(--primery-white-color);
@@ -28,3 +26,11 @@
     }
 }
 
+.address-dn{
+    text-align: center;
+}
+
+.mob-address{
+    margin-right: auto;
+    margin-left: auto;
+}

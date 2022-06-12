@@ -29,8 +29,10 @@ button {
     padding: 0;
 }
 
-img {
-    display: block;
+// скидає підкреслювання у ссилок
+
+a {
+    text-decoration: none;
 }
 
 
