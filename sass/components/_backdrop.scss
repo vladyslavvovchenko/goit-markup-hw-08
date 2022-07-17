@@ -10,7 +10,7 @@
     opacity: 1;
     transform: scale(1);
     transition: opacity var(--main-tranzitions),
-        transform var(--main-tranzitions);
+    transform var(--main-tranzitions);
 }
 
 .backdrop.is-hidden {

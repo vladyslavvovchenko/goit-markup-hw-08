@@ -17,28 +17,69 @@
     <header class="header">
         <div class="container">
             <div class="box">
-                
+    
                 <a href="./index.html" class="logo header__logo">Web<span class="logo--black">Studio</span></a>
-                
+    
                 <nav>
                     <ul class="site-nav">
-                        <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
-                        <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link current-link">Портфолио</a></li>
+                        <li class="site-nav__item"><a href="" class="site-nav__link current-link">Студия</a></li>
+                        <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
                         <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
                     </ul>
                 </nav>
-            
+    
                 <ul class="contacts contacts-mar">
-                    <li class="contacts__item"><a href="mailto:info@devstudio.com" class="contacts__link"><svg class="contact__icons" width="16"
-                                height="12">
+                    <li class="contacts__item"><a href="mailto:info@devstudio.com" class="contacts__link"><svg
+                                class="contact__icons" width="16" height="12">
                                 <use href="./images/icon.svg#icon-mail"></use>
                             </svg>info@devstudio.com</a></li>
-                    <li class="contacts__item"><a href="tel:+38 096 111 11 11" class="contacts__link"><svg class="contact__icons" width="10"
-                                height="16">
+                    <li class="contacts__item"><a href="tel:+38 096 111 11 11" class="contacts__link"><svg
+                                class="contact__icons" width="10" height="16">
                                 <use href="./images/icon.svg#icon-smartphone"></use>
                             </svg>+38 096 111 11 11</a></li>
                 </ul>
+                <button type="button" class="mob-button-open"><svg width="40" height="40">
+                        <use class="mob-icon-open" href="./images/icon.svg#icon-menu-open"></use>
+                    </svg>
+                </button>
+                <div class="mob-menu is-hidden">
+                    <button type="button" class="mob-button-close"><svg width="40" height="40">
+                            <use class="mob-icon-close" href="./images/icon.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                    <nav>
+                        <ul class="mob-nav">
+                            <li class="mob-nav__item"><a href="./index.html" class="mob-nav__link">Студия</a></li>
+                            <li class="mob-nav__item"><a href="./portfolio.html" class="mob-nav__link mob-current-link">Портфолио</a></li>
+                            <li class="mob-nav__item"><a href="" class="mob-nav__link">Контакты</a></li>
+                        </ul>
+                    </nav>
+    
+                    <div>
+                        <ul class="mob-contacts">
+                            <li class="mob-contacts__item"><a href="tel:+38 096 111 11 11" class="mob-contacts__tel">
+                                    +38 096 111 11 11</a></li>
+                            <li class="mob-contacts__item"><a href="mailto:info@devstudio.com" class="mob-contacts__link">
+                                    info@devstudio.com</a></li>
+                        </ul>
+                        <ul class="mob-social-networks">
+                            <li class="mob-social-item">
+                                <a href="" class="mob-social-link">Instagram</a>
+                            </li>
+                            <li class="mob-social-item">
+                                <a href="" class="mob-social-link">Twitter</a>
+                            </li>
+                            <li class="mob-social-item">
+                                <a href="" class="mob-social-link">Facebook</a>
+                            </li>
+                            <li class="mob-social-item">
+                                <a href="" class="mob-social-link">Linketdin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+    
         </div>
     </header>
     <!--наши проекты-->
@@ -60,7 +101,7 @@
                             <a>
                                                         
                                 <div class="services-thumb">
-                                        <img src="./images/portfolio/Technokryak.jpg" alt="" width="">
+                                        <img srcset="./images/mobile-images/portfolio/technoquack-mobile-1x.jpg 1x, ./images/mobile-images/portfolio/technoquack-mobile-2x.jpg 2x" src="./images/mobile-images/portfolio/technoquack-mobile-1x.jpg" alt="" width="">
                                         
                                     <div class="services-overlay">
                                         <div class="services-text">
@@ -81,7 +122,7 @@
                         <li class="services">
                             <a>
                                 <div class="services-thumb">
-                                    <img src="./images/portfolio/New Orlean vs Golden Star poster.jpg" alt="" width="">
+                                    <img srcset="./images/mobile-images/portfolio/poster-mobile-1x.jpg 1x, ./images/mobile-images/portfolio/poster-mobile-2x.jpg 2x" src="./images/mobile-images/portfolio/poster-mobile-1x.jpg" alt="" width="">
                                 
                                     <div class="services-overlay">
                                         <div class="services-text">
@@ -104,7 +145,7 @@
                         <li class="services">
                             <a>
                                 <div class="services-thumb">
-                                    <img src="./images/portfolio/Seafood Restaurant.jpg" alt="" width="">
+                                    <img srcset="./images/mobile-images/portfolio/restaurant-seafood-mobile-1x.jpg 1x, ./images/mobile-images/portfolio/restaurant-seafood-mobile-2x.jpg 2x" src="./images/mobile-images/portfolio/restaurant-seafood-mobile-1x.jpg" alt="" width="">
                                 
                                     <div class="services-overlay">
                                         <div class="services-text">
@@ -126,7 +167,7 @@
                         <li class="services">
                             <a>
                                 <div class="services-thumb">
-                                    <img src="./images/portfolio/Prime Project.jpg" alt="" width="">
+                                    <img srcset="./images/mobile-images/portfolio/project-prime-mobile-1x.jpg 1x, ./images/mobile-images/portfolio/project-prime-mobile-2x.jpg 2x" src="./images/mobile-images/portfolio/project-prime-mobile-1x.jpg" alt="" width="">
                                 
                                     <div class="services-overlay">
                                         <div class="services-text">
@@ -148,7 +189,7 @@
                         <li class="services">
                             <a>
                                 <div class="services-thumb">
-                                    <img src="./images/portfolio/Boxes project.jpg" alt="" width="">
+                                    <img srcset="./images/mobile-images/portfolio/project-boxes-mobile-1x.jpg 1x, ./images/mobile-images/portfolio/project-boxes-mobile-2x.jpg 2x" src="./images/mobile-images/portfolio/project-boxes-mobile-1x.jpg" alt="" width="">
                                 
                                     <div class="services-overlay">
                                         <div class="services-text">
@@ -170,7 +211,7 @@
                         <li class="services">
                             <a>
                                 <div class="services-thumb">
-                                    <img src="./images/portfolio/Inspiration has no Borders.jpg" alt="" width="">
+                                    <img srcset="./images/mobile-images/portfolio/inspiration-mobile-1x.jpg 1x, ./images/mobile-images/portfolio/inspiration-mobile-2x.jpg 2x" src="./images/mobile-images/portfolio/inspiration-mobile-1x.jpg" alt="" width="">
                                 
                                     <div class="services-overlay">
                                         <div class="services-text">
@@ -192,7 +233,7 @@
                         <li class="services">
                             <a>
                                 <div class="services-thumb">
-                                    <img src="./images/portfolio/Limited Edition.jpg" alt="" width="">
+                                    <img srcset="./images/mobile-images/portfolio/edition-mobile-1x.jpg 1x, ./images/mobile-images/portfolio/edition-mobile-2x.jpg 2x" src="./images/mobile-images/portfolio/edition-mobile-1x.jpg" alt="" width="">
                                 
                                     <div class="services-overlay">
                                         <div class="services-text">
@@ -214,7 +255,7 @@
                         <li class="services">
                             <a>
                                 <div class="services-thumb">
-                                    <img src="./images/portfolio/LAB project.jpg" alt="" width="">
+                                    <img srcset="./images/mobile-images/portfolio/project-lab-mobile-1x.jpg 1x, ./images/mobile-images/portfolio/project-lab-mobile-2x.jpg 2x " src="./images/mobile-images/portfolio/project-lab-mobile-1x.jpg" alt="" width="">
                                 
                                     <div class="services-overlay">
                                         <div class="services-text">
@@ -236,7 +277,7 @@
                         <li class="services">
                             <a>
                                 <div class="services-thumb">
-                                    <img src="./images/portfolio/Growing Business.jpg" alt="" width="">
+                                    <img srcset="./images/mobile-images/portfolio/growing-business-mobile-1x.jpg 1x, ./images/mobile-images/portfolio/growing-business-mobile-2x.jpg 2x" src="./images/mobile-images/portfolio/growing-business-mobile-1x.jpg" alt="" width="">
                                 
                                     <div class="services-overlay">
                                         <div class="services-text">
@@ -262,50 +303,66 @@
  <!--Футер-->  
     <footer class="footer">
         <div class="container">
-                <div class="footer-flex">
-                    <div>
-                        
-                        <a href="./index.html" class="logo">Web<span class="logo--white">Studio</span></a>
-                        
-                        <address class="address">
-                            <ul>
-                                <li class="address-dn"><a href="г. Киев, пр-т Леси Украинки, 26" class="link">г. Киев, пр-т Леси
-                                        Украинки,
-                                        26</br></a></li>
-                                <li class="address-dn"><a href="mailto:info@devstudio.com"
-                                        class="link-contacts">info@example.com</br></a>
-                                </li>
-                                <li class="address-dn"><a href="tel:+38 096 111 11 11" class="link-contacts">+38 099 111 11 11</a></li>
-                            </ul>
-                        </address>
-                    </div>
-                    <div class="join">
-                        <h3 class="join-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
-                        <ul class="social-networks-footer">
-                            <li>
-                                <a href="" class="social-link-footer"><svg width="20" height="20">
-                                        <use href="./images/icon.svg#icon-instagram"></use>
-                                    </svg></a>
+            <div class="footer-flex">
+                <div>
+    
+                    <a href="./index.html" class="logo mob-logo-down">Web<span class="logo--white">Studio</span></a>
+    
+                    <address class="address mob-address">
+                        <ul>
+                            <li class="address-dn"><a href="г. Киев, пр-т Леси Украинки, 26" class="link">г. Киев, пр-т Леси
+                                    Украинки,
+                                    26</br></a></li>
+                            <li class="address-dn"><a href="mailto:info@devstudio.com"
+                                    class="link-contacts">info@example.com</br></a>
                             </li>
-                            <li>
-                                <a href="" class="social-link-footer"><svg width="20" height="20">
-                                        <use href="./images/icon.svg#icon-twitter"></use>
-                                    </svg></a>
-                            </li>
-                            <li>
-                                <a href="" class="social-link-footer"><svg width="20" height="20">
-                                        <use href="./images/icon.svg#icon-facebook"></use>
-                                    </svg></a>
-                            </li>
-                            <li>
-                                <a href="" class="social-link-footer"><svg width="20" height="20">
-                                        <use href="./images/icon.svg#icon-linkedin"></use>
-                                    </svg></a>
-                            </li>
+                            <li class="address-dn"><a href="tel:+38 096 111 11 11" class="link-contacts">+38 099 111 11
+                                    11</a></li>
                         </ul>
+                    </address>
+                </div>
+                <div class="join">
+                    <h3 class="join-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+                    <ul class="social-networks-footer">
+                        <li>
+                            <a href="" class="social-link-footer"><svg width="20" height="20">
+                                    <use href="./images/icon.svg#icon-instagram"></use>
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a href="" class="social-link-footer"><svg width="20" height="20">
+                                    <use href="./images/icon.svg#icon-twitter"></use>
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a href="" class="social-link-footer"><svg width="20" height="20">
+                                    <use href="./images/icon.svg#icon-facebook"></use>
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a href="" class="social-link-footer"><svg width="20" height="20">
+                                    <use href="./images/icon.svg#icon-linkedin"></use>
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="subscription">
+                    <h3 class="join-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+                    <div class="subscription-flex">
+                        <form>
+                            <label>
+                                <input class="subscription-input" type="email" name="email" placeholder="E-mail">
+                            </label>
+                        </form>
+                        <button class="button subscription-button" type="submit">Подписаться<svg class="send-svg" width="24"
+                                height="24">
+                                <use href="./images/icon.svg#icon-send"></use>
+                            </svg></button>
                     </div>
                 </div>
+            </div>
         </div>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

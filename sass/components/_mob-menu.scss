@@ -14,6 +14,16 @@
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--second-text-coor);
+    transform: translateY(0%);
+    opacity: 1;
+    transition: transform var(--main-tranzitions), opacity var(--main-tranzitions);
+    // z-index: 1;
+}
+
+.mob-menu.is-hidden {
+    position: absolute;
+    transform: translateY(-100%);
+    opacity: 0;
 }
 
 .mob-button-close{
@@ -62,6 +72,7 @@
 
 .mob-social-networks {
     display: flex;
+    flex-wrap: wrap;
     font-size: 18px;
     line-height: 1.22;
     color: var(--accent-hover-color);

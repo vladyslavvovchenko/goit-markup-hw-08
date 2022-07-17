@@ -38,7 +38,7 @@
                         <use class="mob-icon-open" href="./images/icon.svg#icon-menu-open"></use>
                         </svg>
                 </button>
-                <!-- <div class="mob-menu">
+                <div class="mob-menu is-hidden">
                     <button type="button" class="mob-button-close"><svg width="40" height="40">
                             <use class="mob-icon-close" href="./images/icon.svg#icon-close"></use>
                         </svg>
@@ -73,7 +73,7 @@
                             </li>
                         </ul>
                     </div>
-                </div> -->
+                </div>
             </div>
             
         </div>
@@ -175,13 +175,11 @@
                     <h2 class="team-title">Наша команда</h2>
                     <ul class="peoples">
                         <li class="card">
-                            
-                            <img 
-                            
+                            <img srcset="./images/mobile-images/ihor-demjanenko-mobile-1x.jpg 1x, ./images/mobile-images/ihor-demjanenko-mobile-2x.jpg 2x"
                             src="./images/mobile-images/ihor-demjanenko-mobile-1x.jpg" alt="игорь демьяненко" width="" />
-                            <h3 class="peoples-title">Игорь Демьяненко</h3>
-                            <p class="profession">Product Designer</p>
-                            <ul class="social-networks">
+                                <h3 class="peoples-title">Игорь Демьяненко</h3>
+                                <p class="profession">Product Designer</p>
+                                <ul class="social-networks">
                                     <li>
                                         <a href="" class="social-link"><svg  width="20" height="20">
                                             <use href="./images/icon.svg#icon-instagram"></use></svg></a>
@@ -204,7 +202,8 @@
                             </ul>
                         </li>
                         <li class="card">
-                            <img src="./images/mobile-images/olha-repina-mobile-1x.jpg" alt="ольга репина" width="" />
+                            <img srcset="./images/mobile-images/olha-repina-mobile-1x.jpg 1x, ./images/mobile-images/olha-repina-mobile-2x.jpg 2x" 
+                            src="./images/mobile-images/olha-repina-mobile-1x.jpg" alt="ольга репина" width="" />
                                 <h3 class="peoples-title">Ольга Репина</h3>
                                 <p class="profession">Frontend Developer</p>
                                 <ul class="social-networks">
@@ -231,8 +230,8 @@
                                 </ul>
                         </li>
                         <li class="card">
-                            <img src="./images/mobile-images/nikolay-tarasov-mobile-1x.jpg" alt="николай тарасов" width="" />
-                            
+                            <img srcset="./images/mobile-images/nikolay-tarasov-mobile-1x.jpg 1x, ./images/mobile-images/nikolay-tarasov-mobile-2x.jpg 2x"
+                            src="./images/mobile-images/nikolay-tarasov-mobile-1x.jpg" alt="николай тарасов" width="" />
                                 <h3 class="peoples-title">Николай Тарасов</h3>
                                 <p class="profession">Marketing</p>
                                 <ul class="social-networks">
@@ -260,7 +259,8 @@
                             
                         </li>
                         <li class="card">
-                            <img src="./images/mobile-images/michail-ermakov-mobile-1x.jpg" alt="михаил ермаков" width="" />
+                            <img srcset="./images/mobile-images/michail-ermakov-mobile-1x.jpg 1x, ./images/mobile-images/michail-ermakov-mobile-2x.jpg 2x"
+                            src="./images/mobile-images/michail-ermakov-mobile-1x.jpg" alt="михаил ермаков" width="" />
                                 <h3 class="peoples-title">Михаил Ермаков</h3>
                                 <p class="profession">UI Designer</p>
                                 <ul class="social-networks">
@@ -394,7 +394,7 @@
         </div>
     </footer>
 <!-- backdrop-->    
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="close-button" data-modal-close>
                 <svg width="30" height="30">
@@ -454,7 +454,8 @@
             </form>
         </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
     </body>
 </html>
 
