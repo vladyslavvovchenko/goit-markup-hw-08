@@ -211,6 +211,7 @@ a {
   transform: translateY(0%);
   opacity: 1;
   transition: transform var(--main-tranzitions), opacity var(--main-tranzitions);
+  z-index: 2;
 }
 
 .mob-menu.is-hidden {
@@ -945,15 +946,22 @@ textarea::placeholder {
 
 .services-text {
   position: absolute;
-  width: 322px;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 77px 24px;
   display: block;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   color: var(--primery-white-color);
+}
+@media screen and (max-width: 352px) {
+  .services-text {
+    padding: 10px;
+    font-size: 16px;
+  }
 }
 
 .services-content {
