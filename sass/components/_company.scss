@@ -2,7 +2,8 @@
 
 .company-title {
     font-weight: bold;
-    font-size: 36px;
+    // font-size: 36px;
+    font-size: 28px;
     line-height: 1.17;
     text-align: center;
     color: var(--second-text-coor);
@@ -12,14 +13,17 @@
 .company-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    @media (max-width: 449px) {
-        justify-content: center;
-    }
+    column-gap: 30px;
+    // justify-content: space-between;
+    // @media (max-width: 449px) {
+    //     justify-content: center;
+    // }
+    
 }
 
 .company-list-item{
     margin-top: 30px;
+    width: calc(100% / 2 - 15px);
 }
 
 .company-link {
@@ -27,8 +31,10 @@
     justify-content: center;
     align-items: center;
     // width: 170px;
-    width: 210px;
-    height: 92px;
+    
+    min-width: 130px;
+    // width: 100%;
+    min-height: 70px;
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;

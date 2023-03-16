@@ -14,14 +14,22 @@
     margin-bottom: 30px;
     color: var(--second-text-coor);
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    // font-size: 36px;
+    font-size: 28px;
+    // line-height: 1.17;
+    line-height: 1.14;
 }
 
 .peoples {
     // display: flex;
     justify-content: space-between;
     padding: 0;
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
 }
 
 .card {
@@ -36,10 +44,15 @@
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     /* outline: 2px solid blue; */
-}
-
-.card:not(:last-child){
-    margin-bottom: 30px;
+    &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+        @media screen and (min-width: 768px){
+            max-width: calc(100% / 2 - 15px);
+            &:not(:last-child) {
+                    margin-bottom: 0px;
+        }
+    }
 }
 
 .peoples-title {

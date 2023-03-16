@@ -6,7 +6,11 @@
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.71;
-
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }       
 }
 
 .description__items {
@@ -15,7 +19,12 @@
     &:not(:last-child){
         margin-bottom: 30px;
     }
-    
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+            max-width: calc(100% / 2 - 15px);
+            &:not(:last-child) {
+                    margin-bottom: 0px;
+                }
+        }
 }
 
 .description__icons-bg {
