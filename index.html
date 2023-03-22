@@ -143,7 +143,9 @@
                     <ul class="works-list">
                         <li class="works-list__item">
                             <a href="">
-                                <img src="./images/box 1.jpg" alt="разработка по" width="370" />
+                                <img
+                                srcset="./images/desktop-images/desktop-stydio/desctop-works-1x.jpg 1x, /images/desktop-images/desktop-stydio/desctop-works-2x.jpg 2x" 
+                                src="./images/desktop-images/desktop-stydio/desctop-works-1x.jpg" alt="разработка по" width="" />
                             </a>
                             <div class="works-list__overlay">
                                 <h3 class="works-list__overay-title">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
@@ -152,7 +154,9 @@
                         
                         <li class="works-list__item">
                             <a href="">
-                                <img src="./images/box 2.jpg" alt="оформление меню телефона" width="370" />
+                                <img 
+                                srcset="./images/desktop-images/desktop-stydio/mobile-works-1x.jpg 1x, ./images/desktop-images/desktop-stydio/mobile-works-2x.jpg 2x"
+                                src="./images/desktop-images/desktop-stydio/mobile-works-1x.jpg" alt="оформление меню телефона" width="" />
                             </a>
                             <div class="works-list__overlay">
                                 <h3 class="works-list__overay-title">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</h3>
@@ -160,7 +164,9 @@
                         </li>
                         <li class="works-list__item">
                             <a href="">
-                                <img src="./images/box 3.jpg" alt="подбор цветовой гаммы" width="370" />
+                                <img 
+                                srcset="./images/desktop-images/desktop-stydio/designer-works-1x.jpg 1x, ./images/desktop-images/desktop-stydio/designer-works-2x 2x"
+                                src="./images/desktop-images/desktop-stydio/designer-works-1x.jpg" alt="подбор цветовой гаммы" width="" />
                             </a>
                             <div class="works-list__overlay">
                                 <h3 class="works-list__overay-title">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</h3>
@@ -175,8 +181,24 @@
                     <h2 class="team-title">Наша команда</h2>
                     <ul class="peoples">
                         <li class="card">
-                            <img srcset="./images/mobile-images/ihor-demjanenko-mobile-1x.jpg 1x, ./images/mobile-images/ihor-demjanenko-mobile-2x.jpg 2x"
-                            src="./images/mobile-images/ihor-demjanenko-mobile-1x.jpg" alt="игорь демьяненко" width="" />
+                            <picture>
+                                <source
+                                srcset="./images/desktop-images/desktop-stydio/ihor-demjanenko-desktop-1x.jpg 1x, ./images/desktop-images/desktop-stydio/ihor-demjanenko-desktop-2x.jpg 2x"
+                                media="min-width: 1200px"
+                                />
+                                <source
+                                srcset="./images/tablet-images/tablet-stydio/ihor-demjanenko-tablet-1x.jpg 1x, ./images/tablet-images/tablet-stydio/ihor-demjanenko-tablet-2x.jpg 2x"
+                                media="min-width: 768px"
+                                />
+                                <source
+                                srcset="./images/mobile-images/mobile-stydio/ihor-demjanenko-mobile-1x.jpg 1x, ./images/mobile-images/mobile-stydio/ihor-demjanenko-mobile-2x.jpg 2x"
+                                media="min-width: 320px"
+                                />
+                                <!-- Бажано ставити в найбільшому розширенні (в даному випадку mobile)-->
+                                <img src="./images/mobile-images/mobile-stydio/ihor-demjanenko-mobile-1x.jpg" alt="игорь демьяненко" width="" />
+
+                            </picture>
+                            
                                 <h3 class="peoples-title">Игорь Демьяненко</h3>
                                 <p class="profession">Product Designer</p>
                                 <ul class="social-networks">
@@ -202,8 +224,21 @@
                             </ul>
                         </li>
                         <li class="card">
-                            <img srcset="./images/mobile-images/olha-repina-mobile-1x.jpg 1x, ./images/mobile-images/olha-repina-mobile-2x.jpg 2x" 
-                            src="./images/mobile-images/olha-repina-mobile-1x.jpg" alt="ольга репина" width="" />
+                            <picture>
+                                <source
+                                    srcset="./images/desktop-images/desktop-stydio/olha-repina-desktop-1x.jpg 1x, ./images/desktop-images/desktop-stydio/olha-repina-desktop-2x.jpg 2x"
+                                    media="min-width: 1200px" />
+                                <source
+                                    srcset="./images/tablet-images/tablet-stydio/olha-repina-tablet-1x.jpg 1x, ./images/tablet-images/tablet-stydio/olha-repina-tablet-2x.jpg 2x"
+                                    media="min-width: 768px" />
+                                <source
+                                    srcset="./images/mobile-images/mobile-stydio/olha-repina-mobile-1x.jpg 1x, ./images/mobile-images/mobile-stydio/olha-repina-mobile-2x.jpg 2x"
+                                    media="min-width: 320px" />
+
+                                <img src="./images/mobile-images/mobile-stydio/olha-repina-mobile-1x.jpg" alt="ольга репина" width="" />
+                                
+                            </picture>
+                            
                                 <h3 class="peoples-title">Ольга Репина</h3>
                                 <p class="profession">Frontend Developer</p>
                                 <ul class="social-networks">
@@ -230,8 +265,20 @@
                                 </ul>
                         </li>
                         <li class="card">
-                            <img srcset="./images/mobile-images/nikolay-tarasov-mobile-1x.jpg 1x, ./images/mobile-images/nikolay-tarasov-mobile-2x.jpg 2x"
-                            src="./images/mobile-images/nikolay-tarasov-mobile-1x.jpg" alt="николай тарасов" width="" />
+                            <picture>
+                                <source
+                                    srcset="./images/desktop-images/desktop-stydio/nikolay-tarasov-desktop-1x.jpg 1x, ./images/desktop-images/desktop-stydio/nikolay-tarasov-desktop-2x.jpg 2x"
+                                    media="min-width: 1200px" />
+                                <source
+                                    srcset="./images/tablet-images/tablet-stydio/nikolay-tarasov-tablet-1x.jpg 1x, ./images/tablet-images/tablet-stydio/nikolay-tarasov-tablet-2x.jpg 2x"
+                                    media="min-width: 768px" />
+                                <source
+                                    srcset="./images/mobile-images/mobile-stydio/nikolay-tarasov-mobile-1x.jpg 1x, ./images/mobile-images/mobile-stydio/nikolay-tarasov-mobile-2x.jpg 2x"
+                                    media="min-width: 320px" />
+                            
+                                <img src="./images/mobile-images/mobile-stydio/nikolay-tarasov-mobile-1x.jpg" alt="николай тарасов" width="" />
+                            
+                            </picture>
                                 <h3 class="peoples-title">Николай Тарасов</h3>
                                 <p class="profession">Marketing</p>
                                 <ul class="social-networks">
@@ -259,8 +306,21 @@
                             
                         </li>
                         <li class="card">
-                            <img srcset="./images/mobile-images/michail-ermakov-mobile-1x.jpg 1x, ./images/mobile-images/michail-ermakov-mobile-2x.jpg 2x"
-                            src="./images/mobile-images/michail-ermakov-mobile-1x.jpg" alt="михаил ермаков" width="" />
+                            <picture>
+                                <source
+                                    srcset="./images/desktop-images/desktop-stydio/michail-ermakov-desktop-1x.jpg 1x, ./images/desktop-images/desktop-stydio/michail-ermakov-desktop-2x.jpg 2x "
+                                    media="min-width: 1200px" />
+                                <source
+                                    srcset="./images/tablet-images/tablet-stydio/michail-ermakov-tablet-1x.jpg 1x, ./images/tablet-images/tablet-stydio/michail-ermakov-tablet-2x.jpg 2x,"
+                                    media="min-width: 768px" />
+                                <source
+                                    srcset="./images/mobile-images/mobile-stydio/michail-ermakov-mobile-1x.jpg 1x, ./images/mobile-images/mobile-stydio/michail-ermakov-mobile-2x.jpg 2x "
+                                    media="min-width: 320px" />
+                                
+                                <img src="./images/mobile-images/mobile-stydio/michail-ermakov-mobile-1x.jpg" alt="михаил ермаков" width="" />
+                            
+                            </picture>
+                            
                                 <h3 class="peoples-title">Михаил Ермаков</h3>
                                 <p class="profession">UI Designer</p>
                                 <ul class="social-networks">
