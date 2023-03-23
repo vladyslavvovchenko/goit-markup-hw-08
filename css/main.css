@@ -649,10 +649,6 @@ a {
   line-height: 1.71;
 }
 
-.footer-flex {
-  justify-content: space-between;
-}
-
 @media (min-width: 768px) {
   .footer-tablet-flex {
     display: flex;
@@ -982,6 +978,11 @@ textarea::placeholder {
   row-gap: 15px;
   column-gap: 8px;
 }
+@media screen and (min-width: 768px) {
+  .filter {
+    justify-content: center;
+  }
+}
 
 .portfolio-button {
   padding: 6px 22px;
@@ -1007,6 +1008,13 @@ textarea::placeholder {
 .content-card {
   padding-left: 0;
 }
+@media screen and (min-width: 768px) {
+  .content-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
 
 .services {
   max-width: 450px;
@@ -1018,13 +1026,21 @@ textarea::placeholder {
 .services:hover, .services:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .services:nth-child(3n) {
   margin-right: 0;
 }
-
 .services:not(:last-child) {
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .services:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .services {
+    width: calc((100% - 30px) / 2);
+  }
 }
 
 /* меню-overlay */
