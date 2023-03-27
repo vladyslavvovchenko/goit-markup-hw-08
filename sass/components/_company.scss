@@ -2,12 +2,14 @@
 
 .company-title {
     font-weight: bold;
-    // font-size: 36px;
     font-size: 28px;
     line-height: 1.17;
     text-align: center;
     color: var(--second-text-coor);
     // margin-bottom: 50px;
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+    }
 }
 
 .company-list {
@@ -19,13 +21,17 @@
     //     justify-content: center;
     // }
     
+    
 }
 
-.company-list-item{
+.company-list__item{
     margin-top: 30px;
     width: calc((100% - 30px) / 2);
     @media (min-width: 768px) {
         width: calc((100% - 60px) / 3);
+    }
+    @media screen and (min-width: 1200px) {
+        width: calc((100% - 150px) / 6);
     }
 }
 

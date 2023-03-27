@@ -3,6 +3,9 @@
 .works {
     padding-bottom: 94px;
     display: none;
+    @media screen and (min-width: 1200px){
+        display: block;
+    }
 }
 
 .works__title {
@@ -23,9 +26,10 @@
 
 .works-list__item {
     position: relative;
-    width: 370px;
+    // width: 370px;
     display: block;
     margin: 0;
+    width: calc((100% - 60px) / 3);
 }
 
 .works-list__overlay {

@@ -10,23 +10,16 @@
 }
 
 .footer-flex {
-    
-    // justify-content: space-between;
-    // @media(min-width: 768px){
-    //     display: flex;
-    //     flex-wrap: wrap;
-    // }
-}
-
-.footer-tablet-flex{
-    @media(min-width: 768px){
+    @media(min-width: 768px) {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
-        margin-bottom: 60px;
+        
     }
-    
+    @media(min-width: 1200px){
+        justify-content: space-between;
+    }
 }
-
 
 .logo--white {
     color: var(--primery-white-color);    
