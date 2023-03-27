@@ -1,13 +1,11 @@
 /* modal */
 
 .modal {
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    // min-width: 528px;
-    
-    // min-height: 581px;
     width: calc(100% - 30px);
     padding: 40px;
     background: var(--primery-white-color);
@@ -18,6 +16,10 @@
     @media screen and (min-width: 480px) {
         max-width: 450px;        
     }
+    @media screen and (min-width: 1200px){
+        max-width: 528px;
+    }
+    
 }
 
 

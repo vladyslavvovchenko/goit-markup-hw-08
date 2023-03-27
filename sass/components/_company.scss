@@ -16,12 +16,6 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px;
-    // justify-content: space-between;
-    // @media (max-width: 449px) {
-    //     justify-content: center;
-    // }
-    
-    
 }
 
 .company-list__item{
@@ -39,10 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // width: 170px;
-    
     min-width: 130px;
-    // width: 100%;
     min-height: 92px;
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;

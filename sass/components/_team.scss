@@ -23,7 +23,6 @@
 }
 
 .peoples {
-    // display: flex;
     justify-content: space-between;
     padding: 0;
     @media screen and (min-width: 768px){
@@ -35,11 +34,9 @@
 }
 
 .card {
-    // width: 270px;
     max-width: 450px;
     text-align: center;
     background-color: var(--primery-white-color);
-    // padding-bottom: 30px;
     padding-bottom: 24px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
