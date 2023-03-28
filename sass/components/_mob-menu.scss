@@ -17,7 +17,7 @@
     transform: translateY(0%);
     opacity: 1;
     transition: transform var(--main-tranzitions), opacity var(--main-tranzitions);
-    // z-index: 1;
+    overflow-y: auto;
     z-index: 2;
 }
 

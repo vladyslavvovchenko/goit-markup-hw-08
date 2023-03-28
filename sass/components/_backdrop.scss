@@ -18,3 +18,7 @@
     pointer-events: none;
     transform: scale(0.3);
 }
+
+body.modal-open-desk {
+    overflow: hidden;
+}
